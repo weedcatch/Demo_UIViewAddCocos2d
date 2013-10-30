@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C82B66191820F39800FAC2C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82B66181820F39800FAC2C9 /* Foundation.framework */; };
+		C82B661B1820F39800FAC2C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82B661A1820F39800FAC2C9 /* CoreGraphics.framework */; };
+		C82B661D1820F39800FAC2C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82B661C1820F39800FAC2C9 /* UIKit.framework */; };
+		C82B66231820F39800FAC2C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C82B66211820F39800FAC2C9 /* InfoPlist.strings */; };
+		C82B66251820F39800FAC2C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C82B66241820F39800FAC2C9 /* main.m */; };
+		C82B66291820F39800FAC2C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C82B66281820F39800FAC2C9 /* AppDelegate.m */; };
+		C82B662C1820F39800FAC2C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82B662A1820F39800FAC2C9 /* Main.storyboard */; };
+		C82B662F1820F39800FAC2C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C82B662E1820F39800FAC2C9 /* ViewController.m */; };
+		C82B66311820F39800FAC2C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82B66301820F39800FAC2C9 /* Images.xcassets */; };
+		C82B66381820F39800FAC2C9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82B66371820F39800FAC2C9 /* XCTest.framework */; };
+		C82B66391820F39800FAC2C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82B66181820F39800FAC2C9 /* Foundation.framework */; };
+		C82B663A1820F39800FAC2C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82B661C1820F39800FAC2C9 /* UIKit.framework */; };
+		C82B66421820F39800FAC2C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C82B66401820F39800FAC2C9 /* InfoPlist.strings */; };
+		C82B66441820F39800FAC2C9 /* DemoForUIViewAddCocos2dTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C82B66431820F39800FAC2C9 /* DemoForUIViewAddCocos2dTests.m */; };
+		C82B669A1820F6FD00FAC2C9 /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C82B66891820F4DA00FAC2C9 /* libcocos2d.a */; };
+		C82B669C1820F7DA00FAC2C9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C82B669B1820F7DA00FAC2C9 /* libz.dylib */; };
+		C82B669E1820F93F00FAC2C9 /* blade_sparkle.plist in Resources */ = {isa = PBXBuildFile; fileRef = C82B669D1820F93F00FAC2C9 /* blade_sparkle.plist */; };
+		C82B66A11820F9FC00FAC2C9 /* MyLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C82B66A01820F9FC00FAC2C9 /* MyLayer.m */; };
+		C82B66A41820FC1800FAC2C9 /* DirectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C82B66A31820FC1800FAC2C9 /* DirectorViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C82B663B1820F39800FAC2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82B660D1820F39800FAC2C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C82B66141820F39800FAC2C9;
+			remoteInfo = DemoForUIViewAddCocos2d;
+		};
+		C82B66821820F4DA00FAC2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82B66741820F4D900FAC2C9 /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 509807081175041800EA7266;
+			remoteInfo = "build all libs";
+		};
+		C82B66841820F4DA00FAC2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82B66741820F4D900FAC2C9 /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 504225700FC0B39C00B992F7;
+			remoteInfo = box2d;
+		};
+		C82B66861820F4DA00FAC2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82B66741820F4D900FAC2C9 /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50B2C4D10E100AEA00AE9530;
+			remoteInfo = Chipmunk;
+		};
+		C82B66881820F4DA00FAC2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82B66741820F4D900FAC2C9 /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5018F24D0DFDEAC400C013A5;
+			remoteInfo = cocos2d;
+		};
+		C82B668A1820F4DA00FAC2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82B66741820F4D900FAC2C9 /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0EFA7AC169CDF9C006D1B22;
+			remoteInfo = cocos2d_box2d;
+		};
+		C82B668C1820F4DA00FAC2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82B66741820F4D900FAC2C9 /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0EFA886169CDFA4006D1B22;
+			remoteInfo = cocos2d_chipmunk;
+		};
+		C82B668E1820F4DA00FAC2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82B66741820F4D900FAC2C9 /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 502C65EE0DFEF3DD00E4107D;
+			remoteInfo = "cocos2d-documentation";
+		};
+		C82B66901820F4DA00FAC2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82B66741820F4D900FAC2C9 /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50CB2FCA1004C8B100B7A750;
+			remoteInfo = CocosDenshion;
+		};
+		C82B66921820F4DA00FAC2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82B66741820F4D900FAC2C9 /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A02900ED15B5FA9E00D64F82;
+			remoteInfo = CocosBuilderReader;
+		};
+		C82B66941820F4DA00FAC2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82B66741820F4D900FAC2C9 /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A031B73915D9BD0800E1986C;
+			remoteInfo = jsbindings;
+		};
+		C82B66961820F4DA00FAC2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82B66741820F4D900FAC2C9 /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A04A1FEB13B826B300ABAFB7;
+			remoteInfo = kazmath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C82B66151820F39800FAC2C9 /* DemoForUIViewAddCocos2d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoForUIViewAddCocos2d.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82B66181820F39800FAC2C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C82B661A1820F39800FAC2C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C82B661C1820F39800FAC2C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C82B66201820F39800FAC2C9 /* DemoForUIViewAddCocos2d-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoForUIViewAddCocos2d-Info.plist"; sourceTree = "<group>"; };
+		C82B66221820F39800FAC2C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C82B66241820F39800FAC2C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C82B66261820F39800FAC2C9 /* DemoForUIViewAddCocos2d-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoForUIViewAddCocos2d-Prefix.pch"; sourceTree = "<group>"; };
+		C82B66271820F39800FAC2C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C82B66281820F39800FAC2C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C82B662B1820F39800FAC2C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C82B662D1820F39800FAC2C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C82B662E1820F39800FAC2C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C82B66301820F39800FAC2C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C82B66361820F39800FAC2C9 /* DemoForUIViewAddCocos2dTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoForUIViewAddCocos2dTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82B66371820F39800FAC2C9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C82B663F1820F39800FAC2C9 /* DemoForUIViewAddCocos2dTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoForUIViewAddCocos2dTests-Info.plist"; sourceTree = "<group>"; };
+		C82B66411820F39800FAC2C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C82B66431820F39800FAC2C9 /* DemoForUIViewAddCocos2dTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoForUIViewAddCocos2dTests.m; sourceTree = "<group>"; };
+		C82B66741820F4D900FAC2C9 /* cocos2d-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "cocos2d-ios.xcodeproj"; path = "../../../cocos2d-iphone/cocos2d-ios.xcodeproj"; sourceTree = "<group>"; };
+		C82B669B1820F7DA00FAC2C9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C82B669D1820F93F00FAC2C9 /* blade_sparkle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = blade_sparkle.plist; sourceTree = "<group>"; };
+		C82B669F1820F9FC00FAC2C9 /* MyLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLayer.h; sourceTree = "<group>"; };
+		C82B66A01820F9FC00FAC2C9 /* MyLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLayer.m; sourceTree = "<group>"; };
+		C82B66A21820FC1800FAC2C9 /* DirectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectorViewController.h; sourceTree = "<group>"; };
+		C82B66A31820FC1800FAC2C9 /* DirectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectorViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C82B66121820F39800FAC2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82B669C1820F7DA00FAC2C9 /* libz.dylib in Frameworks */,
+				C82B669A1820F6FD00FAC2C9 /* libcocos2d.a in Frameworks */,
+				C82B661B1820F39800FAC2C9 /* CoreGraphics.framework in Frameworks */,
+				C82B661D1820F39800FAC2C9 /* UIKit.framework in Frameworks */,
+				C82B66191820F39800FAC2C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82B66331820F39800FAC2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82B66381820F39800FAC2C9 /* XCTest.framework in Frameworks */,
+				C82B663A1820F39800FAC2C9 /* UIKit.framework in Frameworks */,
+				C82B66391820F39800FAC2C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C82B660C1820F39800FAC2C9 = {
+			isa = PBXGroup;
+			children = (
+				C82B661E1820F39800FAC2C9 /* DemoForUIViewAddCocos2d */,
+				C82B663D1820F39800FAC2C9 /* DemoForUIViewAddCocos2dTests */,
+				C82B66171820F39800FAC2C9 /* Frameworks */,
+				C82B66161820F39800FAC2C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C82B66161820F39800FAC2C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C82B66151820F39800FAC2C9 /* DemoForUIViewAddCocos2d.app */,
+				C82B66361820F39800FAC2C9 /* DemoForUIViewAddCocos2dTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C82B66171820F39800FAC2C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C82B669B1820F7DA00FAC2C9 /* libz.dylib */,
+				C82B66741820F4D900FAC2C9 /* cocos2d-ios.xcodeproj */,
+				C82B66181820F39800FAC2C9 /* Foundation.framework */,
+				C82B661A1820F39800FAC2C9 /* CoreGraphics.framework */,
+				C82B661C1820F39800FAC2C9 /* UIKit.framework */,
+				C82B66371820F39800FAC2C9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C82B661E1820F39800FAC2C9 /* DemoForUIViewAddCocos2d */ = {
+			isa = PBXGroup;
+			children = (
+				C82B66A21820FC1800FAC2C9 /* DirectorViewController.h */,
+				C82B66A31820FC1800FAC2C9 /* DirectorViewController.m */,
+				C82B669F1820F9FC00FAC2C9 /* MyLayer.h */,
+				C82B66A01820F9FC00FAC2C9 /* MyLayer.m */,
+				C82B669D1820F93F00FAC2C9 /* blade_sparkle.plist */,
+				C82B66271820F39800FAC2C9 /* AppDelegate.h */,
+				C82B66281820F39800FAC2C9 /* AppDelegate.m */,
+				C82B662A1820F39800FAC2C9 /* Main.storyboard */,
+				C82B662D1820F39800FAC2C9 /* ViewController.h */,
+				C82B662E1820F39800FAC2C9 /* ViewController.m */,
+				C82B66301820F39800FAC2C9 /* Images.xcassets */,
+				C82B661F1820F39800FAC2C9 /* Supporting Files */,
+			);
+			path = DemoForUIViewAddCocos2d;
+			sourceTree = "<group>";
+		};
+		C82B661F1820F39800FAC2C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C82B66201820F39800FAC2C9 /* DemoForUIViewAddCocos2d-Info.plist */,
+				C82B66211820F39800FAC2C9 /* InfoPlist.strings */,
+				C82B66241820F39800FAC2C9 /* main.m */,
+				C82B66261820F39800FAC2C9 /* DemoForUIViewAddCocos2d-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C82B663D1820F39800FAC2C9 /* DemoForUIViewAddCocos2dTests */ = {
+			isa = PBXGroup;
+			children = (
+				C82B66431820F39800FAC2C9 /* DemoForUIViewAddCocos2dTests.m */,
+				C82B663E1820F39800FAC2C9 /* Supporting Files */,
+			);
+			path = DemoForUIViewAddCocos2dTests;
+			sourceTree = "<group>";
+		};
+		C82B663E1820F39800FAC2C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C82B663F1820F39800FAC2C9 /* DemoForUIViewAddCocos2dTests-Info.plist */,
+				C82B66401820F39800FAC2C9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C82B66751820F4D900FAC2C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C82B66831820F4DA00FAC2C9 /* libbuild all libs.a */,
+				C82B66851820F4DA00FAC2C9 /* libbox2d.a */,
+				C82B66871820F4DA00FAC2C9 /* libChipmunk.a */,
+				C82B66891820F4DA00FAC2C9 /* libcocos2d.a */,
+				C82B668B1820F4DA00FAC2C9 /* libcocos2d_box2d.a */,
+				C82B668D1820F4DA00FAC2C9 /* libcocos2d_chipmunk.a */,
+				C82B668F1820F4DA00FAC2C9 /* libcocos2d-documentation.a */,
+				C82B66911820F4DA00FAC2C9 /* libCocosDenshion.a */,
+				C82B66931820F4DA00FAC2C9 /* libCocosBuilderReader.a */,
+				C82B66951820F4DA00FAC2C9 /* libjsbindings.a */,
+				C82B66971820F4DA00FAC2C9 /* libkazmath.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C82B66141820F39800FAC2C9 /* DemoForUIViewAddCocos2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82B66471820F39800FAC2C9 /* Build configuration list for PBXNativeTarget "DemoForUIViewAddCocos2d" */;
+			buildPhases = (
+				C82B66111820F39800FAC2C9 /* Sources */,
+				C82B66121820F39800FAC2C9 /* Frameworks */,
+				C82B66131820F39800FAC2C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoForUIViewAddCocos2d;
+			productName = DemoForUIViewAddCocos2d;
+			productReference = C82B66151820F39800FAC2C9 /* DemoForUIViewAddCocos2d.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C82B66351820F39800FAC2C9 /* DemoForUIViewAddCocos2dTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82B664A1820F39800FAC2C9 /* Build configuration list for PBXNativeTarget "DemoForUIViewAddCocos2dTests" */;
+			buildPhases = (
+				C82B66321820F39800FAC2C9 /* Sources */,
+				C82B66331820F39800FAC2C9 /* Frameworks */,
+				C82B66341820F39800FAC2C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C82B663C1820F39800FAC2C9 /* PBXTargetDependency */,
+			);
+			name = DemoForUIViewAddCocos2dTests;
+			productName = DemoForUIViewAddCocos2dTests;
+			productReference = C82B66361820F39800FAC2C9 /* DemoForUIViewAddCocos2dTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C82B660D1820F39800FAC2C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = weedcatch;
+				TargetAttributes = {
+					C82B66351820F39800FAC2C9 = {
+						TestTargetID = C82B66141820F39800FAC2C9;
+					};
+				};
+			};
+			buildConfigurationList = C82B66101820F39800FAC2C9 /* Build configuration list for PBXProject "DemoForUIViewAddCocos2d" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C82B660C1820F39800FAC2C9;
+			productRefGroup = C82B66161820F39800FAC2C9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C82B66751820F4D900FAC2C9 /* Products */;
+					ProjectRef = C82B66741820F4D900FAC2C9 /* cocos2d-ios.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C82B66141820F39800FAC2C9 /* DemoForUIViewAddCocos2d */,
+				C82B66351820F39800FAC2C9 /* DemoForUIViewAddCocos2dTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C82B66831820F4DA00FAC2C9 /* libbuild all libs.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libbuild all libs.a";
+			remoteRef = C82B66821820F4DA00FAC2C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C82B66851820F4DA00FAC2C9 /* libbox2d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libbox2d.a;
+			remoteRef = C82B66841820F4DA00FAC2C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C82B66871820F4DA00FAC2C9 /* libChipmunk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChipmunk.a;
+			remoteRef = C82B66861820F4DA00FAC2C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C82B66891820F4DA00FAC2C9 /* libcocos2d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcocos2d.a;
+			remoteRef = C82B66881820F4DA00FAC2C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C82B668B1820F4DA00FAC2C9 /* libcocos2d_box2d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcocos2d_box2d.a;
+			remoteRef = C82B668A1820F4DA00FAC2C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C82B668D1820F4DA00FAC2C9 /* libcocos2d_chipmunk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcocos2d_chipmunk.a;
+			remoteRef = C82B668C1820F4DA00FAC2C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C82B668F1820F4DA00FAC2C9 /* libcocos2d-documentation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d-documentation.a";
+			remoteRef = C82B668E1820F4DA00FAC2C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C82B66911820F4DA00FAC2C9 /* libCocosDenshion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocosDenshion.a;
+			remoteRef = C82B66901820F4DA00FAC2C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C82B66931820F4DA00FAC2C9 /* libCocosBuilderReader.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocosBuilderReader.a;
+			remoteRef = C82B66921820F4DA00FAC2C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C82B66951820F4DA00FAC2C9 /* libjsbindings.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsbindings.a;
+			remoteRef = C82B66941820F4DA00FAC2C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C82B66971820F4DA00FAC2C9 /* libkazmath.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libkazmath.a;
+			remoteRef = C82B66961820F4DA00FAC2C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C82B66131820F39800FAC2C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82B66311820F39800FAC2C9 /* Images.xcassets in Resources */,
+				C82B66231820F39800FAC2C9 /* InfoPlist.strings in Resources */,
+				C82B669E1820F93F00FAC2C9 /* blade_sparkle.plist in Resources */,
+				C82B662C1820F39800FAC2C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82B66341820F39800FAC2C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82B66421820F39800FAC2C9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C82B66111820F39800FAC2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82B662F1820F39800FAC2C9 /* ViewController.m in Sources */,
+				C82B66A11820F9FC00FAC2C9 /* MyLayer.m in Sources */,
+				C82B66291820F39800FAC2C9 /* AppDelegate.m in Sources */,
+				C82B66A41820FC1800FAC2C9 /* DirectorViewController.m in Sources */,
+				C82B66251820F39800FAC2C9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82B66321820F39800FAC2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82B66441820F39800FAC2C9 /* DemoForUIViewAddCocos2dTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C82B663C1820F39800FAC2C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C82B66141820F39800FAC2C9 /* DemoForUIViewAddCocos2d */;
+			targetProxy = C82B663B1820F39800FAC2C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C82B66211820F39800FAC2C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82B66221820F39800FAC2C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C82B662A1820F39800FAC2C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82B662B1820F39800FAC2C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C82B66401820F39800FAC2C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82B66411820F39800FAC2C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C82B66451820F39800FAC2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C82B66461820F39800FAC2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C82B66481820F39800FAC2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoForUIViewAddCocos2d/DemoForUIViewAddCocos2d-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../../../cocos2d-iphone/**",
+				);
+				INFOPLIST_FILE = "DemoForUIViewAddCocos2d/DemoForUIViewAddCocos2d-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C82B66491820F39800FAC2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoForUIViewAddCocos2d/DemoForUIViewAddCocos2d-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../../../cocos2d-iphone/**",
+				);
+				INFOPLIST_FILE = "DemoForUIViewAddCocos2d/DemoForUIViewAddCocos2d-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C82B664B1820F39800FAC2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoForUIViewAddCocos2d.app/DemoForUIViewAddCocos2d";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoForUIViewAddCocos2d/DemoForUIViewAddCocos2d-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DemoForUIViewAddCocos2dTests/DemoForUIViewAddCocos2dTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C82B664C1820F39800FAC2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoForUIViewAddCocos2d.app/DemoForUIViewAddCocos2d";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoForUIViewAddCocos2d/DemoForUIViewAddCocos2d-Prefix.pch";
+				INFOPLIST_FILE = "DemoForUIViewAddCocos2dTests/DemoForUIViewAddCocos2dTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C82B66101820F39800FAC2C9 /* Build configuration list for PBXProject "DemoForUIViewAddCocos2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82B66451820F39800FAC2C9 /* Debug */,
+				C82B66461820F39800FAC2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82B66471820F39800FAC2C9 /* Build configuration list for PBXNativeTarget "DemoForUIViewAddCocos2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82B66481820F39800FAC2C9 /* Debug */,
+				C82B66491820F39800FAC2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C82B664A1820F39800FAC2C9 /* Build configuration list for PBXNativeTarget "DemoForUIViewAddCocos2dTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82B664B1820F39800FAC2C9 /* Debug */,
+				C82B664C1820F39800FAC2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C82B660D1820F39800FAC2C9 /* Project object */;
+}
